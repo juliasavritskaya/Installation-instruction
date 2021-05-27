@@ -74,7 +74,8 @@ If Java is not installed:
   - Enter javac FileName.java (e.g. javac Task1.java or javac by\savritskaya\task1\Task1.java if file is in some package) .
  
  If everything is right, file with .class extension should appear in the same directory.
- If everything is not right - use Google.I know you're smart enough.
+ 
+ If everything is not right - use Google. I know you're smart enough.
  
  4.2 
  Enter java FileName in command line (e.g. java Task1 or java by.savritskaya.task1.Task1)
