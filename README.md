@@ -3,9 +3,9 @@
 All the following instructions are for OS Windows 10.
 
 **0) Download the file**
-
-
-
+⠀
+⠀
+⠀
 **1) Java and JDK installation**
    
 1.1. Check if Java is installed on your computer
@@ -25,9 +25,9 @@ If Java is not installed:
 1.3 Select suitable option for your OS. We are using Windows x64 Installer    
     
 1.4 Follow the inctructions of Installer. Recommended directory for jdk setup is C:\Program Files\Java\jdk_version_
-    
-    
-    
+⠀    
+⠀    
+ ⠀   
 **2) Setup environment variables (Java home)**
 
    - In search enter "environmental variables" and select suitable option.
@@ -47,9 +47,9 @@ If Java is not installed:
    - At the end of the value for variable enter the path to jdk bin folder (e.g. C:\Program Files\Java\jdk-16\bin).
    
    - Click OK and Apply Changes.
-
-
-
+⠀
+⠀
+⠀
 **3) Check if Java is installed properly:**
    
    - open command line (win +r and "cmd" in dialog box)
@@ -63,9 +63,9 @@ If Java is not installed:
   Expected result is as followng (version of java and javac is displayed, path fot jdk folder is displayed for JAVA_HOME):
     ![image](https://user-images.githubusercontent.com/55387479/119828185-9aa0c780-bf02-11eb-8870-a9c0d205ca28.png)
 
-   
-   
-   
+ ⠀  
+ ⠀  
+   ⠀
 **4) Compiling code with cmd**
    
    - Open command line (win +r and "cmd" in dialog box)
@@ -80,9 +80,9 @@ If Java is not installed:
    
   ![image](https://user-images.githubusercontent.com/55387479/119829181-a5a82780-bf03-11eb-88ef-fd778b2648a1.png)
 
-
-    
-    
+⠀
+⠀    
+  ⠀  
 **5) Compiling code with .jar**
   
   5.1. Create .jar file
@@ -107,6 +107,7 @@ If Java is not installed:
   In our case it is:
             
     java -jar Task.jar
-    
-    
+   ⠀ 
+    ⠀
+    ⠀
   **6) If you're crazy enough, you can also create a .bat file, so you can just double-click on it and launch our incredible application, but but that's a completely different story **   
