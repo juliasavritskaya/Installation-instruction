@@ -3,9 +3,8 @@
 All the following instructions are for OS Windows 10.
 
 **0) Download the file**
-⠀
-⠀
-⠀
+
+
 **1) Java and JDK installation**
    
 1.1. Check if Java is installed on your computer:
@@ -68,6 +67,7 @@ If Java is not installed:
    ⠀
 **4) Compiling code with cmd**
    
+  4.1 
   - Open command line (win +r and "cmd" in dialog box).
   
   - Go to directory where file with code is located using cd command ( e.g. cd D:\Java projects\Task1).
@@ -77,7 +77,8 @@ If Java is not installed:
  If everything is right, file with .class extension should appear in the same directory.
  If everything is not right - use Google.I know you're smart enough.
  
- - Enter java FileName in command line (e.g. java Task1 or java by.savritskaya.task1.Task1)
+ 4.2 
+ Enter java FileName in command line (e.g. java Task1 or java by.savritskaya.task1.Task1)
    
   ![image](https://user-images.githubusercontent.com/55387479/119829181-a5a82780-bf03-11eb-88ef-fd778b2648a1.png)
 
@@ -86,11 +87,13 @@ If Java is not installed:
   ⠀  
 **5) Compiling code with .jar**
   
-  5.1. Create .jar file
- 
- - Open command line (win +r and "cmd" in dialog box)
+  5.0. Do p. 4.1.
   
- - Enter command     
+  5.1. Create .jar file:
+ 
+ - Open command line (win +r and "cmd" in dialog box).
+  
+ - Enter command:     
    
         jar cfe YourJarFileName.jar PackageDirectory.YourMainClassName PackageDirectory/YourMainClassName.class
         
@@ -98,7 +101,7 @@ If Java is not installed:
     
         jar cfe Task.jar by.savritskaya.task1.Task1 by/savritskaya/task1/Task1.class
     
-  5.2 Compile .jar file
+  5.2 Compile .jar file:
   
    In the same directory, use command line command:
    
