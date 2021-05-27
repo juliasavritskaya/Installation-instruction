@@ -46,9 +46,8 @@ If Java is not installed:
    - At the end of the value for variable enter the path to jdk bin folder (e.g. C:\Program Files\Java\jdk-16\bin).
    
    - Click OK and Apply Changes.
-⠀
-⠀
-⠀
+
+
 **3) Check if Java is installed properly:**
    
    - Open command line (win +r and "cmd" in dialog box).
