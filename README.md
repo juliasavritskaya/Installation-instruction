@@ -8,11 +8,11 @@ All the following instructions are for OS Windows 10.
 ⠀
 **1) Java and JDK installation**
    
-1.1. Check if Java is installed on your computer
+1.1. Check if Java is installed on your computer:
     
-- open command line (win +r and "cmd" in dialog box)
-- enter java -version    
-- enter javac -version    
+- Open command line (win +r and "cmd" in dialog box).
+- Enter java -version.
+- Enter javac -version.  
    
 If Java and JDK is installed, expected result is as followng: ![image](https://user-images.githubusercontent.com/55387479/119819735-5eb53480-bef9-11eb-8836-d49fe68c1ca2.png)
     
@@ -32,7 +32,7 @@ If Java is not installed:
 
    - In search enter "environmental variables" and select suitable option.
     
-   - Click "edit"
+   - Click "edit".
     
    2.1 Under System Variables, click New.
     
@@ -52,13 +52,13 @@ If Java is not installed:
 ⠀
 **3) Check if Java is installed properly:**
    
-   - open command line (win +r and "cmd" in dialog box)
+   - Open command line (win +r and "cmd" in dialog box).
    
-   - enter java -version 
+   - Enter java -version 
    
-   - enter javac -version
+   - Enter javac -version.
    
-   - enter echo %JAVA_HOME%
+   - Enter echo %JAVA_HOME%
   
   Expected result is as followng (version of java and javac is displayed, path fot jdk folder is displayed for JAVA_HOME):
     ![image](https://user-images.githubusercontent.com/55387479/119828185-9aa0c780-bf02-11eb-8870-a9c0d205ca28.png)
@@ -68,13 +68,14 @@ If Java is not installed:
    ⠀
 **4) Compiling code with cmd**
    
-   - Open command line (win +r and "cmd" in dialog box)
+  - Open command line (win +r and "cmd" in dialog box).
   
-  - Go to directory where file with code is located using cd command ( e.g. cd D:\Java projects\Task1)
+  - Go to directory where file with code is located using cd command ( e.g. cd D:\Java projects\Task1).
   
-  - Enter javac FileName.java (e.g. javac Task1.java or javac by\savritskaya\task1\Task1.java if file is in some package) 
+  - Enter javac FileName.java (e.g. javac Task1.java or javac by\savritskaya\task1\Task1.java if file is in some package) .
  
  If everything is right, file with .class extension should appear in the same directory.
+ If everything is not right - use Google.I know you're smart enough.
  
  - Enter java FileName in command line (e.g. java Task1 or java by.savritskaya.task1.Task1)
    
