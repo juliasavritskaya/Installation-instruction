@@ -20,12 +20,21 @@ All the following instructions are for OS Windows 10.
 **2) Setup environment variables (Java home)**
     - In search enter "environmental variables" and select suitable option.
     - In pop up window select option "edit"
-    - Under System Variables, click New.
-    - In the Variable Name field, enter JAVA_HOME
-    - The value for variable is the path to jdk folder (e.g. C:\Program Files\Java\jdk-16)
-    - Click OK and Apply Changes as prompted
+    2.1 Under System Variables, click New.
+    - In the Variable Name field, enter JAVA_HOME.
+    - The value for variable is the path to jdk folder (e.g. C:\Program Files\Java\jdk-16).
+    - Click OK and Apply Changes.
+    2.2 Under System Variables, chose PATH variable.
+    - At the end of the value for variable enter the path to jdk bin folder (e.g. C:\Program Files\Java\jdk-16\bin).
+    - Click OK and Apply Changes.
 
-**3) Creating jar file**
+    3) Check if Java installed properly:
+    - open command line (win +r and "cmd" in dialog box)
+    - enter java -version 
+    - enter javac -version
+    - enter echo %JAVA_HOME%
+   
+**4) Creating jar file**
 
 **4) Compile**
     Open command line (win +r and "cmd" in dialog box)
