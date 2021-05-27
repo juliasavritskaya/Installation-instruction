@@ -114,4 +114,4 @@ If Java is not installed:
    ⠀ 
     ⠀
     ⠀
-  **6) If you're crazy enough, you can also create a .bat file, so you can just double-click on it and launch our incredible application, but that's a completely different story (and I believe you're mentally stable enough so plz don't make me do it)**   
+  **6) If you're crazy enough, you can also create a .bat file, so you can just double-click on it and launch our incredible application, but that's a completely different story (and I believe you're mentally stable person so plz don't make me do it)**   
