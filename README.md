@@ -5,7 +5,7 @@ All the following instructions are for OS Windows 10.
 **0) Download the file**
 
 
-**1) Java and JDK installation (java - version javac -version**
+**1) Java and JDK installation**
     1.1. Check if Java is installed on your computer
     - open command line (win +r and "cmd" in dialog box)
     - enter java -version    
@@ -28,14 +28,26 @@ All the following instructions are for OS Windows 10.
     - At the end of the value for variable enter the path to jdk bin folder (e.g. C:\Program Files\Java\jdk-16\bin).
     - Click OK and Apply Changes.
 
-    3) Check if Java installed properly:
+**3) Check if Java is installed properly:**
     - open command line (win +r and "cmd" in dialog box)
     - enter java -version 
     - enter javac -version
     - enter echo %JAVA_HOME%
-   
-**4) Creating jar file**
+    Expected result is as followng (version of java and javac is displayed, path fot jdk folder is displayed for JAVA_HOME:
+    ![image](https://user-images.githubusercontent.com/55387479/119828185-9aa0c780-bf02-11eb-8870-a9c0d205ca28.png)
 
-**4) Compile**
-    Open command line (win +r and "cmd" in dialog box)
-    Go to directory where file is located using cd command ( e.g. cd D:\Java projects\Task1
+   
+**4) Compiling file**
+    - Open command line (win +r and "cmd" in dialog box)
+    - Go to directory where file with code is located using cd command ( e.g. cd D:\Java projects\Task1)
+    - Enter javac FileName.java (e.g. javac Task1.java)
+    If everything is right, file with .class extension should appear in the same directory.
+    - Enter java FileName in command line.
+    ![image](https://user-images.githubusercontent.com/55387479/119829181-a5a82780-bf03-11eb-88ef-fd778b2648a1.png)
+
+    
+**5) Creating jar file**
+    - Open command line (win +r and "cmd" in dialog box)
+    - enter command 
+    
+    jar cf jar-file input-file(s)
